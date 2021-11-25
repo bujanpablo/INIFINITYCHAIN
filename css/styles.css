@@ -1,0 +1,208 @@
+/*BODY*/
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  background-color: white; }
+
+/*PANEL*/
+#panel,
+#flip {
+  padding: 3px;
+  text-align: center;
+  color: white;
+  background-color: #1e2d42;
+  border: solid 1px #1e2d42; }
+
+#panel {
+  padding: 50px;
+  display: none; }
+
+/*Cards*/
+.totalCards {
+  padding-top: 50px;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center; }
+
+.totalCardsSecond {
+  padding-top: 50px;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center; }
+
+.totalCardsFlip {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center; }
+
+/*HEARTS*/
+.btnHeart {
+  padding-left: 15px;
+  color: grey;
+  border: none;
+  background-color: white; }
+
+.btnHeart a {
+  color: grey; }
+
+.btnHeart:active {
+  color: red; }
+
+/*MenuNav*/
+.logo {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px; }
+
+.topNav {
+  overflow: hidden;
+  width: 100%;
+  display: table;
+  text-align: center;
+  padding-top: 25px;
+  color: white;
+  height: 80px; }
+
+.topNav a {
+  float: inherit;
+  display: inline-table;
+  color: #1e2d42;
+  text-align: center;
+  padding-top: 30px;
+  padding-inline: 25px;
+  font-style: bold;
+  text-decoration: none;
+  font-size: 17px; }
+
+.topNav a:hover {
+  color: #b4e0f9; }
+
+.topNav a.active {
+  color: #b4e0f9; }
+
+ul {
+  list-style: none;
+  font-size: 0; }
+
+li {
+  display: inline-block;
+  font-size: 15px; }
+
+ul ul {
+  position: absolute;
+  display: none;
+  width: 10%;
+  z-index: 1; }
+
+ul ul li {
+  display: block;
+  width: 100%;
+  float: left;
+  text-align: left; }
+
+ul li:hover ul {
+  display: block; }
+
+/*HERO*/
+video {
+  width: 100%;
+  height: auto; }
+
+@media only screen and (min-width: 600px) {
+  .col-s-1 {
+    width: 8.33%; }
+  .col-s-2 {
+    width: 16.66%; }
+  .col-s-3 {
+    width: 25%; }
+  .col-s-4 {
+    width: 33.33%; }
+  .col-s-5 {
+    width: 41.66%; }
+  .col-s-6 {
+    width: 50%; }
+  .col-s-7 {
+    width: 58.33%; }
+  .col-s-8 {
+    width: 66.66%; }
+  .col-s-9 {
+    width: 75%; }
+  .col-s-10 {
+    width: 83.33%; }
+  .col-s-11 {
+    width: 91.66%; }
+  .col-s-12 {
+    width: 100%; } }
+
+@media only screen and (min-width: 768px) {
+  .col-1 {
+    width: 8.33%; }
+  .col-2 {
+    width: 16.66%; }
+  .col-3 {
+    width: 25%; }
+  .col-4 {
+    width: 33.33%; }
+  .col-5 {
+    width: 41.66%; }
+  .col-6 {
+    width: 50%; }
+  .col-7 {
+    width: 58.33%; }
+  .col-8 {
+    width: 66.66%; }
+  .col-9 {
+    width: 75%; }
+  .col-10 {
+    width: 83.33%; }
+  .col-11 {
+    width: 91.66%; }
+  .col-12 {
+    width: 100%; } }
+
+/*Formulario*/
+/* Style the form - display items horizontally */
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center; }
+
+/* Add some margins for each label */
+.form-inline label {
+  margin: 5px 10px 5px 0; }
+
+/* Style the input fields */
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd; }
+
+/* Style the submit button */
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white; }
+
+.form-inline button:hover {
+  background-color: royalblue; }
+
+/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0; }
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch; } }
