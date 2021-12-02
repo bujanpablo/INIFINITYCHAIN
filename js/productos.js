@@ -1,6 +1,6 @@
 const productos = [{
         id: "NFT",
-        class: "Aquatic",
+        name: "Aquatic",
         health: 56,
         speed: 35,
         skill: 45,
@@ -11,7 +11,7 @@ const productos = [{
     },
     {
         id: "NFT",
-        class: "plant",
+        name: "plant",
         health: 82,
         speed: 33,
         skill: 45,
@@ -21,7 +21,7 @@ const productos = [{
     },
     {
         id: 3,
-        class: "dusk",
+        name: "dusk",
         health: 75,
         speed: 44,
         skill: 53,
@@ -31,7 +31,7 @@ const productos = [{
     },
     {
         id: 4,
-        class: "reptile",
+        name: "reptile",
         health: 67,
         speed: 55,
         skill: 33,
@@ -41,7 +41,7 @@ const productos = [{
     },
     {
         id: 5,
-        class: "bug",
+        name: "bug",
         health: 45,
         speed: 44,
         skill: 89,
@@ -52,7 +52,7 @@ const productos = [{
     },
     {
         id: 6,
-        class: "mech",
+        name: "mech",
         health: 56,
         speed: 38,
         skill: 38,
@@ -62,7 +62,7 @@ const productos = [{
     },
     {
         id: 7,
-        class: "beast",
+        name: "beast",
         health: 36,
         speed: 38,
         skill: 31,
@@ -73,7 +73,7 @@ const productos = [{
     },
     {
         id: 8,
-        class: "bird",
+        name: "bird",
         health: 28,
         speed: 61,
         skill: 35,
@@ -84,7 +84,7 @@ const productos = [{
     },
     {
         id: 9,
-        class: "dawn",
+        name: "dawn",
         health: 38,
         speed: 49,
         skill: 39,
