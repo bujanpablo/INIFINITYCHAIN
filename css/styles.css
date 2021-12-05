@@ -43,18 +43,17 @@ body {
   justify-items: center;
   align-items: center; }
 
-/*HEARTS*/
-.btnHeart {
-  padding-left: 15px;
-  color: grey;
-  border: none;
-  background-color: white; }
+/*TEXTO*/
+.ml3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 3.5em; }
 
-.btnHeart a {
-  color: grey; }
-
-.btnHeart:active {
-  color: red; }
+/*Video*/
+.video {
+  float: left; }
 
 /*MenuNav*/
 .logo {
