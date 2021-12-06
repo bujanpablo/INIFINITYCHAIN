@@ -180,7 +180,7 @@ $(document).ready(function() {
         totalCarro()
 
         Swal.fire({
-            title: 'Thank Your for your purchase',
+            title: 'Thank You for your purchase',
             width: 600,
             padding: '3em',
             background: '#fff url(https://img.freepik.com/free-vector/abstract-paper-hexagon-white-background_51543-213.jpg?size=626&ext=jpg)',
